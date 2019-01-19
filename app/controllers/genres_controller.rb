@@ -24,6 +24,6 @@ class GenresController < ApplicationController
     end
 
     def genre_params
-      params.require(:artist)
+      params.require(:genre)
     end
 end
