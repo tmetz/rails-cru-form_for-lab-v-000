@@ -5,7 +5,7 @@ class ArtistsController < ApplicationController
   end
 
   def create
-    @artist = Artist.create(params[artist])
+    @artist = Artist.create(params[:artist])
   end
 
   def edit
